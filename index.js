@@ -86,7 +86,7 @@ const mongoose = require("mongoose");
 
 const app = express();
 
-app.use(express.json()); // Middleware to parse JSON bodiess
+app.use(express.json()); // Middleware to parse JSON bodiesss
 
 // Use environment variable PORT if available, otherwise default to port 3005
 const port = process.env.PORT || 3005;
